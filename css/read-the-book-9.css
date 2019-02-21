@@ -1,0 +1,176 @@
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
+
+body{
+	background: linear-gradient(to top,#c4f797, #b2f576);
+}
+
+div a{
+	text-decoration: none;
+}
+
+div{
+	position: absolute;
+	top:50%;
+	right:7%;
+	font-size: 35px;
+	text-align: right;
+
+	opacity: 0;
+	transition-timing-function: ease;
+	transition-duration: 2s;
+	z-index: 1;
+	color: white;
+	background-color: black;
+	padding:20px;
+}
+
+h1{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+	margin:10px;
+}
+
+h2{
+	float:left;
+	text-align: center;
+	margin:60px;
+}
+
+h3{
+	float:left;
+	text-align: left;
+	margin: 30px;
+	font-size: 40px;
+}
+
+nav a{
+	text-decoration: none;
+	padding:5px;
+	background-color: #b2f476;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	background-color: #96d85d;
+	text-align:center;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:20px;
+	list-style-type: none;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#current-page{
+	border: 2px black solid;
+}
+
+#back{
+	position:absolute;
+	top:120%;
+	right:85%;
+	height:80px;
+	width:190px;
+	z-index:1;
+}
+
+#next{
+	position:absolute;
+	top:120%;
+	left:85%;
+	height:80px;
+	width:190px;
+	z-index:1;
+}
+
+.replay-button{
+	position:absolute;
+	top:25%;
+	left:48%;
+	height:80px;
+	width:190px;
+	z-index:1;
+}
+
+.replay-button:hover{
+    cursor:pointer;
+}
+
+.story-parts p:first-of-type{
+	padding: 20px;
+	margin:60px;
+	text-align: left;
+	float:left;
+}
+
+.story-parts{
+	background-color: #dbfabe;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	box-shadow: inset 0 0 25px #000000;
+	height:700px;
+	margin:60px;
+}
+
+/*.story-parts aside img{
+	animation-name: pulsing-fruit;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-iteration-count: 2;
+	animation-fill-mode: forwards;
+}*/
+
+
+
+
+@keyframes fruit{
+	from{
+		top:-20%
+	}
+	to{
+		top:60%;
+	}
+}
+
+nav a:link {
+    color: black;
+    transition-timing-function: ease;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #dbfabe;
+    transition-duration: 0.5s;
+}
+
+nav a:active {
+    color: black;
+}
+
+div a:link{
+	text-decoration: none;
+	text-shadow: 0px 0px 10px #000000;
+}
+
+div a:visited{
+	color: #7ad22c;
+}
+
+div a:hover{
+	color: #c4f797;
+}
+
+div a:active {
+}

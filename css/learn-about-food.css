@@ -1,0 +1,136 @@
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
+*{
+	cursor: url('http://www.rw-designer.com/cursor-extern.php?id=86776'), auto;
+}
+
+body{
+	background: linear-gradient(to bottom,#dfffc8, #fffdc8);
+}
+
+h1{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+	margin:10px;
+	text-align: center;
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	margin: 30px;
+}
+
+div a{
+	text-decoration: none;
+}
+
+div img{
+	width:20%;
+	height:20%;
+}
+
+
+nav a{
+	display: block;
+	padding: 0.5em 1.5em;
+	text-decoration: none;
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	text-align:center;
+	font-family: 'Source Sans Pro', sans-serif;
+	list-style-type: none;
+	font-size: 30px;
+	font-weight: lighter;
+	background-color: #c4f797;
+}
+
+section div{
+	padding:40px;
+	text-align: left;
+}
+
+section img{
+	padding:20px;
+}
+
+#back{
+	position:absolute;
+	top:90%;
+	right:78%;
+	height:80px;
+	width:190px;
+	z-index:1;
+}
+
+#current-page{
+	box-shadow: 2px 2px 20px #5f634f;
+}
+.food div{
+	display: flex;
+}
+
+.food{
+	background-color: #dbfabe;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	box-shadow: inset 0 0 25px #000000;
+	height:10500px;
+	margin:60px;
+}
+
+aside:hover div{
+	opacity: 1;
+	transition-duration: 2s;
+	background-color: #b2f476;
+}
+
+nav a:link {
+    color: black;
+    transition-timing-function: ease;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+	cursor: pointer;
+    color: black;
+	box-shadow: 2px 2px 20px #5f634f;
+    transition-duration: 0.5s;
+}
+
+nav a:active {
+    color: black;
+}
+
+div a:link{
+	text-decoration: none;
+	text-shadow: 0px 0px 10px #000000;
+}
+
+div a:visited{
+	color: #7ad22c;
+
+}
+
+div a:hover{
+	color: #c4f797;
+}
+
+div a:active {
+}

@@ -1,0 +1,105 @@
+
+#chocolate-cake{
+	width: 15%;
+	height: 10%;
+	animation-name: pulsing-fruit;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+#ice-cream{ 
+	width: 10%;
+	height: 15%;
+	animation-name: pulsing-fruit;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	transition-delay: 1s;
+}
+
+#pickle{
+	width: 10%;
+	height: 10%;
+	animation-name: pulsing-fruit;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	transition-delay: 1s;
+}
+
+#swiss-cheese{
+	width: 15%;
+	height: 15%;
+	animation-name: pulsing-fruit;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+#salami{
+	width: 10%;
+	height: 10%;
+	animation-name: pulsing-fruit;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	transition-delay: 1s;
+}
+
+#lollypop{
+	width: 16%;
+	height: 10%;
+	animation-name: pulsing-fruit;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+#cherry-pie{
+	width: 20%;
+	height: 20%;
+	animation-name: pulsing-fruit;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	transition-delay: 1s;
+}
+
+#sausage{
+	width: 20%;
+	height: 20%;
+	animation-name: pulsing-fruit;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	transition-delay: 1s;
+}
+
+#cupcake{
+	width: 15%;
+	height: 10%;
+	animation-name: pulsing-fruit;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+#watermelon{
+	width: 15%;
+	height: 10%;
+	animation-name: pulsing-fruit;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
